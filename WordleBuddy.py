@@ -185,10 +185,14 @@ browser.quit()
 print()
 
 # remove previous answers from the ranked words list
+wordsToRemove = []
 for word in wordsRanked:
     for pastanswer in pastanswers:
         if pastanswer == word[0].upper():
-            wordsRanked.remove(word)
+            wordsToRemove.append(word)
+
+for wordToRemove in wordsToRemove:
+    wordsRanked.remove(wordToRemove)
 
 solved = False
 while not solved:
