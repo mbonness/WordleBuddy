@@ -11,6 +11,8 @@ https://www.python.org/downloads/
 
 Sample output:
 
+
+```
 Welcome to WordleBuddy v1.0!
 
 Loading list of all Wordle words...
@@ -55,3 +57,4 @@ You entered YOUTH
 Now, enter your yellow and green letters
 For example, if first letter is yellow and last letter is green type "y1 g5": g1 g2 g3 g4 g5
 Splendid!
+```
