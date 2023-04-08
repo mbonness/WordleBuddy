@@ -1,5 +1,7 @@
 # WordleBuddy
 
+NOTE: This script should no longer be used, the word dictionary is obsolete as of 3/27 when the NY Times' Wordle editor started adding new words to the puzzle.
+
 Assistant for playing Wordle word game.  Uses NY Times solution list and scrape of previous answers to recommend guesses.  Algorithm ranks words by letter frequency to generate recommendations.
 
 To install, you will need Python3, BeautifulSoup and Selenium.
